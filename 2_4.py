@@ -7,7 +7,7 @@ x2 = 0
 discriminant = b**2 - 4*a*c
 if discriminant < 0:
     print("Нет решений")
-elif (discriminant == 0):
+elif discriminant == 0:
     x1 = (-1 * b + discriminant**0.5)/(2*a)
     print(f'Существует только одно решение, где х = {x1}')
 else:
