@@ -8,7 +8,7 @@ while lose < 3:
         win += 1
         lose = 0
         print("Победа")
-    elif (user_pick != 1 and user_pick != 0):
+    elif user_pick != 1 and user_pick != 0:
         print("Конец игры")
         break
     else:
