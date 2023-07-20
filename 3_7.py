@@ -8,5 +8,6 @@ def vowel_dict(string):
             vowel_dict[letter] = False
     return vowel_dict
 
+
 string = input("Введите строку: ")
 print(vowel_dict(string))
