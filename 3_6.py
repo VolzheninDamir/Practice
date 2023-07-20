@@ -4,4 +4,5 @@ def binary_dict():
         binary_dict[num] = bin(num)[2:]
     return binary_dict
 
+
 print(binary_dict())
