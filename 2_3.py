@@ -12,8 +12,9 @@ nums = nums_reverse[::-1]
 count = len(nums)
 
 for number in nums:
-    f_num = f_num + number**count
+    f_num = f_num + number ** count
 
 if f_num == check_user_num:
     print("Ваше число является числом Армстронга!")
-else: print("Не является")
+else:
+    print("Не является")
