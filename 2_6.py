@@ -5,4 +5,5 @@ fuel_tank = int(input("Сколько литров топлива в вашем 
 result = fuel_tank - (km / 100 * litres)
 if result > 0:
     print(f"Вы проедите расстояние в {km} км")
-else: print("Вы не проедите")
+else:
+    print("Вы не проедите")
