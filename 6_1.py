@@ -13,8 +13,8 @@ def get_top_songs(url):
     soup = BeautifulSoup(response.text, 'html.parser')
 
     try:
-        songs = soup.find_all('div', class_='d-track__name')[
-                :10]  # Песни на Яндекс. Музыке содержатся в блоках <div> с классом 'd-track__name'
+        songs = soup.find_all('div', class_='d-track__name')[:10]  # Песни на Яндекс. Музыке содержатся в блоках
+        # <div> с классом 'd-track__name'
     except AttributeError:
         print("Ошибка при поиске песен")
         return
